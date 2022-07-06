@@ -1,0 +1,187 @@
+
+/* Modal CSS */
+.post-modal-container {
+  margin: 0 32px;
+}
+
+.post-modal-container .closeBtn {
+  color: rgb(10, 10, 10);
+  background-color: white;
+  border-radius: 50%;
+  margin: 8px;
+  float: right;
+}
+
+.post-modal-container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: rgb(14, 13, 13);
+  margin-bottom: 48px;
+}
+
+.post-modal-form {
+  min-height: 240px;
+  width: auto;
+  text-align: center;
+}
+
+.post-modal-form textarea {
+  min-height: 120px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px gray solid;
+  margin-bottom: 32px;
+}
+
+.post-modal-form select {
+  height: 62px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px gray solid;
+  margin-bottom: 32px;
+}
+
+.post-modal-form p {
+  font-size: 20px;
+  /* align-items: left; */
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 18px;
+}
+
+.post-modal-form .radio {
+  max-width: 180px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.post-modal-form .radio input{
+  margin-right: 6px;
+}
+
+.post-modal-form .input {
+  height: 62px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px gray solid;
+  margin-bottom: 32px;
+}
+
+.post-modal-upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post-modal-upload h5 {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
+  color: rgb(14, 13, 13);
+  width: 1sc0px;
+}
+
+.post-upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-post-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.sub-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.add-post-container .sub-text h5 {
+  margin-right: 24px;
+}
+
+.round-imgs-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.round-imgs-container i{
+  /* transform: translate(700%, -450%); */
+  height: 40px;
+  width: 40px;
+  border-radius: 150px;
+  border: 1px #800080 solid;
+  color: #800080;
+  size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 22px;
+}
+
+.visually-hidden {
+  border-width: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: 1px !important;
+}
+
+ .uploaded-posts {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.uploaded-post {
+  height: 280px;
+  width: 280px;
+  border: 1px white solid;
+}
+
+.uploaded-post img {
+  height: 100%;
+  width: 100%;
+}
+
+.upload-modal-post-btn {
+  border-radius: 50px;
+  background-color: #800080;
+  color: #ffffff;
+  font-style: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  /* padding: 5px 10px 10px 10px; */
+  width: 150px;
+  height: 60px;
+  font-weight: bold;
+  border-color: none;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 769px) {
+  .post-modal-container {
+    width: 90vw;
+  }
+}
+
+

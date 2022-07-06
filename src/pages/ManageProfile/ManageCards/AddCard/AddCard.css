@@ -1,0 +1,117 @@
+.root-addCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+.addCard-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem 4rem;
+}
+
+.addCard-close-btn {
+  align-self: flex-end;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.add-head {
+  font-size: 2rem;
+  align-self: center;
+  margin-bottom: 1.8rem;
+}
+.addCard-root p {
+  align-self: center;
+  font-size: 1.2rem;
+  margin-bottom: 3.4rem;
+  font-style: bold;
+}
+
+.addCard-inputs-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 2.5rem;
+  gap: 1.8rem;
+}
+
+.addCard-inputDiv {
+  width: calc(50% - 30px);
+  background-color: rgb(249, 249, 253);
+  display: flex;
+  padding: 0.4rem 0.8rem;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #800080;
+}
+
+.addCard-inputDiv svg {
+  color: #800080;
+  margin-right: 0.6rem;
+}
+
+.addCard-inputDiv input {
+  width: 100%;
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background-color: rgb(249, 249, 253);
+}
+
+.addCard-inputDiv input:focus-visible {
+  outline: none;
+}
+
+.addCard-inputDiv-w-100 {
+  width: calc(100% - 30px);
+}
+
+.addCard-inputDiv select {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(249, 249, 253);
+  border-radius: 3px;
+  border: none;
+}
+.addCard-inputDiv select:focus-visible {
+  outline: none;
+}
+.addCard-dateDiv {
+  display: flex;
+  align-items: center;
+}
+
+/*  */
+
+.addCard-action-btns {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.addCard-btn {
+  border-radius: 40px;
+
+  width: 180px;
+  font-style: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-weight: bold; */
+  font-size: 16px;
+
+  text-align: center;
+}
+
+.addCard-save {
+  color: #ffffff;
+  border-color: none;
+  background-color: #800080;
+  padding: 10px;
+}

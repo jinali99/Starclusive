@@ -1,0 +1,180 @@
+.root-manage-profile {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 2.5rem;
+}
+
+.main-options-btns-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 1rem;
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+.option-btn {
+  font-size: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  box-shadow: #f6e7f6 1px 0px 1px 1px;
+}
+
+.option-btn svg {
+  margin-right: 1.2rem;
+}
+
+.active-option-btn {
+  background-color: #800080;
+  color: white;
+}
+
+.main-content {
+  height: calc(100%-72px);
+  flex-grow: 1;
+}
+
+/* others */
+.ls {
+  background-color: rgb(235, 232, 232);
+  border: 1px rgb(167, 163, 163) solid;
+}
+.ls-inner {
+  height: 750px;
+  width: 350px;
+  background-color: #800080;
+}
+
+.ls-image {
+  height: 130px;
+  padding-top: 30px;
+}
+.ls-search {
+  height: 60px;
+  width: 1068px;
+  background-color: rgb(248, 245, 245);
+  padding-top: 60px;
+  margin-top: -490px;
+  margin-left: 350px;
+}
+.ls-search-inner {
+  border: solid 1px rgb(146, 143, 143);
+  width: 600px;
+  height: 30px;
+  border-radius: 25px;
+  margin-top: -20px;
+  margin-left: 20px;
+  color: #800080;
+  padding: 5px 20px 5px 10px;
+}
+.ls--book {
+  width: 60px;
+  height: 50px;
+  margin-top: -40px;
+  margin-left: 700px;
+  color: #800080;
+}
+
+.ls--bell {
+  width: 40px;
+  /* height: 40px; */
+  margin-top: -50px;
+  margin-left: 800px;
+  color: #800080;
+}
+
+.ls-profile {
+  height: 80px;
+  width: 90px;
+  margin-top: -500px;
+  margin-left: 850px;
+  color: #800080;
+}
+
+.ls--home {
+  color: #fdfdfd;
+  height: 40px;
+  border-radius: 25px;
+}
+.ls-list-tab {
+  text-align: justify;
+  margin-left: 60px;
+}
+.ls-input {
+  border: none;
+  background-color: rgb(248, 245, 245);
+  width: 90%;
+  height: 30px;
+}
+.ls-list-tab {
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+}
+
+/*  buttons*/
+.btn-grp {
+  margin-top: 40px;
+}
+.info-card {
+  height: 40px;
+  width: 150px;
+  color: white;
+  background-color: #800080;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.card-button {
+  height: 40px;
+  width: 150px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+}
+.account-button {
+  height: 40px;
+  width: 150px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+}
+.bank-button {
+  height: 40px;
+  width: 150px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+}
+.icons {
+  border-radius: 3px;
+  color: #800080;
+  border: solid 1px lightgray;
+  background-color: rgb(253, 249, 249);
+}
+.sub-button {
+  height: 40px;
+  width: 150px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+}

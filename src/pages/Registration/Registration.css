@@ -1,0 +1,308 @@
+.registration {
+  width: 100%;
+  height: 100%;
+  /* parent */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* align-content: center; */
+}
+
+/* Block - 1 */
+
+.welcome-back-container {
+  max-width: 48%;
+  min-width: 360px;
+  height: 100%;
+  /* child */
+}
+
+.welcome-back-container img {
+  height: 640px;
+  width: 100%;
+}
+
+/* Block - 2 */
+
+.registration-form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 50%;
+  margin: auto;
+}
+
+.registration-form-container .title h2 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.registration-form-container .title p {
+  color: rgb(68, 65, 65);
+  font-size: small;
+  margin-bottom: 2.2rem;
+}
+
+.registration-form {
+  margin-top: 12px;
+  width: 100%;
+}
+
+.upload-photo-container {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.round-image-container {
+  width: 110px;
+  height: 110px;
+  border: 2px #800080 solid;
+  color: #800080;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.round-image-container img {
+  width: 100%;
+  height: 100%;
+  color: rebeccapurple;
+}
+
+.upload-cover-container {
+  background-color: #d4f1f4;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-square-container {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-square-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.inputDivs {
+  margin-top: 16px;
+  border-radius: 3px;
+  color: #800080;
+  border: solid 1px lightgray;
+  background-color: rgb(253, 249, 249);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 42px;
+}
+
+.inputDivs span {
+  margin: 0 12px;
+}
+
+.inputDivs select {
+  width: 100%;
+  height: 95%;
+  background-color: rgb(253, 249, 249);
+  border-radius: 3px;
+  border: none;
+  margin-left: 10px;
+}
+
+.inputDivs select:focus-visible {
+  outline: none;
+}
+
+.tc-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.id-proof-image-holder {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.5rem;
+  margin-top: 16px;
+}
+
+.registration-imgInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+}
+
+.passport-img {
+  border: 2px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.tc-container input {
+  margin-right: 12px;
+  padding: 0.2rem;
+}
+
+.registration-button {
+  margin-top: 16px;
+  border-radius: 25px;
+  background-color: #800080;
+  color: #ffffff;
+  text-align: center;
+  font-family: arial, helvetica, sans-serif;
+  padding: 5px 10px 10px 10px;
+  font-weight: bold;
+  width: 100%;
+  height: 42px;
+  border-color: #800080;
+  margin-bottom: 24px;
+}
+
+.container {
+  border: 2px #800080 solid;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  margin-left: 180px;
+  /* background-color: aqua; */
+}
+.blank-img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.cover-img {
+  width: 130px;
+  height: 150px;
+  object-fit: cover;
+  /* border: none; */
+}
+input[type="file"] {
+  display: none;
+}
+.label {
+  width: 150%;
+  margin-top: 15px;
+  margin-left: -25px;
+}
+
+/* cover image */
+.page2 {
+  height: 25vh;
+}
+.container2 {
+  /* border-radius: 5px; */
+  width: 470px;
+  height: 150px;
+  margin-left: 3px;
+  background-color: rgb(224, 228, 228);
+}
+
+input[type="file"] {
+  display: none;
+}
+.label2 {
+  width: 150%;
+  margin-top: -100px;
+  margin-left: -130px;
+}
+
+/* form */
+
+.image-upload {
+  cursor: pointer;
+}
+.reg-check {
+  padding-right: 220px;
+}
+
+.reg-input {
+  width: 90%;
+  height: 40px;
+  border: none;
+  background-color: rgb(249, 249, 253);
+}
+.reg-input:focus-visible {
+  outline: none;
+}
+
+input[type="checkbox"] {
+  accent-color: #800080;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+  border: none;
+}
+.dropdown-toggle {
+  border: none;
+}
+
+.date-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 12px;
+}
+.corner {
+  top: 25%;
+  left: 25%;
+  transform: translate(587%, -336%);
+  height: 150px;
+  width: 150px;
+  border-radius: 20px 0px 20px 900px;
+  background-color: rgb(253, 215, 247);
+  opacity: 0.2;
+}
+
+@media screen and (max-width: 769px) {
+  .registration {
+    flex-wrap: wrap;
+  }
+
+  .welcome-back-container {
+    max-width: none;
+    height: auto;
+  }
+
+  .registration-form-container {
+    padding: 0 1rem;
+    padding-top: 100px;
+    min-width: none;
+    max-width: none;
+
+    /* parent */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

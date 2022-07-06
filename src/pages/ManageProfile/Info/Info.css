@@ -1,0 +1,162 @@
+.root-info {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: #f6e7f6 2px 2px 2px 4px;
+  border: none;
+  width: 90%;
+  max-width: 75%;
+  padding: 0 15px;
+  margin-bottom: 4rem;
+}
+
+.info-container {
+  padding: 1.5rem 0.8rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* HEADING */
+
+.info-head {
+  font-size: 1.2rem;
+  align-self: flex-start;
+  padding: 0 0.7rem;
+}
+
+/* INPUTS */
+
+.info-inputs-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.info-inputDiv {
+  width: calc(50% - 30px);
+  margin: 12px;
+  background-color: rgb(249, 249, 253);
+  display: flex;
+  padding: 0 0.7rem;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid #800080;
+}
+
+.info-inputDiv svg {
+  color: #800080;
+  margin-right: 0.6rem;
+}
+
+.info-inputDiv input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding: 0.5rem 1rem;
+  background-color: rgb(249, 249, 253);
+}
+
+.info-inputDiv input:focus-visible {
+  outline: none;
+}
+
+.info-inputDiv-w-100 {
+  width: calc(100% - 30px);
+}
+
+.info-inputDiv select {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(249, 249, 253);
+  border-radius: 3px;
+  border: none;
+}
+.info-inputDiv select:focus-visible {
+  outline: none;
+}
+.info-dateDiv {
+  display: flex;
+  align-items: center;
+}
+
+.info-inputDiv input[type="file"] {
+  display: none;
+}
+
+/* IMAGES */
+
+.info-imgs-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+.info-imgInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 120px;
+  border: 1px dashed #800080;
+  padding: 0.2rem;
+}
+
+.info-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.visually-hidden {
+  border-width: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  width: 1px !important;
+}
+
+/* BUTTONS */
+
+.info-action-btns {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.info-btn {
+  border-radius: 40px;
+
+  width: 180px;
+  height: 42px;
+
+  font-style: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-weight: bold; */
+  font-size: 16px;
+
+  text-align: center;
+}
+
+.info-save {
+  color: #ffffff;
+  border-color: none;
+  background-color: #800080;
+}
+
+.info-changePassword {
+  color: #800080;
+  border: 1px #800080 solid;
+  background-color: #ffffff;
+}

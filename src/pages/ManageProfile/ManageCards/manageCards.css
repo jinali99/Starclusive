@@ -1,0 +1,72 @@
+.root-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  background-color: #8000;
+}
+.root-manage-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  width: 90%;
+}
+
+.added-card {
+  background-color: aliceblue;
+  border: 1px solid;
+  padding: 1rem 1.5rem;
+  width: 30%;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  box-shadow: #f6e7f6 1px 1px 1px 2px;
+  /* box-shadow: #800080 0px 1px 4px; */
+}
+
+.card-bank {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.card-bank-name {
+  margin-bottom: 0.5rem;
+}
+
+.card-number {
+  margin-bottom: 0.8rem;
+  font-weight: 800;
+}
+
+.active-cred-card {
+  border: 2px solid #800080;
+}
+
+.card-validity {
+  font-weight: 100;
+  color: gray;
+}
+
+.card-validity span {
+  font-weight: 400;
+}
+
+.add-card-btn {
+  align-self: flex-end;
+  box-shadow: #f6e7f6 1px 1px 1px 2px;
+  border-radius: 25px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  border: none;
+}
+
+.add-card-btn svg {
+  color: #800080;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}

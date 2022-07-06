@@ -1,0 +1,92 @@
+.root-newsFeed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.newsFeed-opts {
+  width: 40rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  border-radius: 7px;
+}
+
+.newsFeet-opt {
+  margin-top: 2.4rem;
+  width: 350px;
+  height: 100%;
+  background-color: rgb(253, 249, 249);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  background-color: #800080;
+  color: rgb(253, 249, 249);
+  border-radius: 5px;
+}
+
+.hero-section {
+  width: 85%;
+  margin: 2rem auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-section h2 {
+  text-align: start;
+  margin-bottom: 1rem;
+}
+
+.fav-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fav-card {
+  background-color: white;
+  padding: 0.8rem;
+  border-radius: 2%;
+  border: 1px black solid;
+  width: 180px;
+}
+
+.fav-card-img {
+  height: 120px;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 2%;
+}
+
+.fav-card-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.fav-card-head h4 {
+  margin-bottom: 0.2rem;
+}
+
+.fav-card-head p {
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+.fav-card-amount {
+  margin-bottom: 0.8rem;
+}
+
+.fav-card-amount span {
+  color: #800080;
+}
+
+.fav-card-desc {
+  margin-bottom: 10rem;
+}
